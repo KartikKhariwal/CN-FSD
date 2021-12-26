@@ -9,28 +9,64 @@
     <form>
         <div>
             <label for="username"> UserName </label>
-            <input placeholder="kk1506" type='text' id='username' required>
+            <input placeholder="kk1506" type='text' value="defaultValue" name="username" id='username' required>
         </div>
         <div>
             <label for="pwd"> Password </label>
-            <input type='password' id='pwd' required>
+            <input type='password' name="password" id='pwd' required>
         </div>
         <div>
             <label for="number"> Number </label>
-            <input type='number' id='number' required>
+            <input type='number' name="mobile" id='number' required>
         </div>
         <div>
             <label for="time"> time </label>
-            <input type='time' id='time'>
+            <input type='time' name="time" id='time'>
         </div>
         <div>
             <label for="email"> email </label>
-            <input type='email' id='email'>
+            <input type='email' name="email" id='email'>
         </div>
         <div>
             <label for="url"> url </label>
-            <input type='url' id='url'>
+            <input type='url' name="urlName" id='url' disabled>
         </div>
+        <div>
+            <p> GENDER </p>
+            <input type='radio' name="cxgender" value="female" checked> FEMALE <br>
+            <input type='radio' name="cxgender" value="male"> MALE <br>
+            <input type='radio' name="cxgender" value="others"> others <br>
+        </div>
+        <div>
+            <p> COURSES DONE </p>
+            <input type='checkbox' name="couse" value="c++"> C++ <br>
+            <input type='checkbox' name="couse" value="java"> Java <br>
+            <input type='checkbox' name="couse" value="webd"> Webd <br>
+        </div>
+        <div>
+            <p> Month </p>
+            <select name="month">
+                <option>Jan</option>
+                <option>Feb</option>
+                <option selected>March</option>
+                <option>Apr</option>
+                <option>May</option>
+                <option>Jun</option>
+                <option>July</option>
+                <option>Aug</option>
+            </select>
+        </div>
+        <div>
+            <textarea name="comments" rows="10">
+
+            </textarea>
+        </div>
+        <div>
+            <input type='button' value="button1">
+        </div>
+        <button type="button">
+            jlnljn
+        </button>
         <div>
             <input type='submit'>
         </div>
