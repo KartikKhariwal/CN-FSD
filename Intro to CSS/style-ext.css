@@ -1,0 +1,25 @@
+p {
+    font-family: serif;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+#idsel {
+    color: palevioletred;
+}
+
+p, h1, .uppercase {
+    /* this is grouping */
+    font-size: 20px;
+}
+
+li h4 {
+    /* this is nesting */
+    font-family: cursive;
+}
+
+#idsel:hover{
+    color: purple;
+}
