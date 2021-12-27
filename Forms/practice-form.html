@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Forms</title>
+</head>
+
+<body>
+    <header>
+        <h2>Already Registered? <u>LOGIN</u> now</h2>
+        <form action="" method="post">
+            <div>
+                <span>
+                    <label for="login_email"> Email </label>
+                    <input type="email" id="login_email" name="login_email" placeholder="abc@gmail.com" required />
+                </span>
+                <span>
+                    <label for="login_pass"> Password </label>
+                    <input type="password" id="login_pass" name="login_password" required />
+                </span>
+                <span>
+                    <button type="submit">
+                        <img src="https://ninjasfiles.s3.amazonaws.com/0000000000001395.png" height="10px"
+                            width="10px" />
+                        Login
+                    </button>
+                </span>
+            </div>
+        </form>
+    </header>
+
+    <br />
+    <hr size="0.5" width="100%" color="black" />
+    <br />
+
+    <main>
+        <section>
+            <a href="https://www.codingninjas.com/">
+                <h3>
+                    Coding Ninja Blogs
+                </h3>
+            </a>
+            <img src="https://ninjasfiles.s3.amazonaws.com/0000000000001395.png" width="100%" />
+        </section>
+
+        <br />
+        <hr size="0.5" width="100%" color="black" />
+        <br />
+
+        <section>
+            <h2><u>REGISTRATION</u></h2>
+
+            <form action="" method="post">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td><label for="fname">First Name:</label></td>
+                            <td><input type="text" id="fname" /></td>
+                        </tr>
+                        <tr>
+                            <td><label for="lname">Last Name:</label></td>
+                            <td><input type="text" id="lname" /></td>
+                        </tr>
+                        <tr>
+                            <td rowspan="3">Current Address:</td>
+                            <td><label for="hno">Flat No./House No.</label></td>
+                            <td><input type="number" id="hno" /></td>
+                        </tr>
+                        <tr>
+                            <td><label for="locality">Locality</label></td>
+                            <td><input type="text" id="locality" /></td>
+                        </tr>
+                        <tr>
+                            <td><label for="city">City</label></td>
+                            <td><input type="text" id="city" /></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <b>Is Current address and permanant address same?</b>
+                            </td>
+                            <td>
+                                <input type="radio" name="addr" value="Yes" /> Yes
+                                <input type="radio" name="addr" value="No" checked /> No
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="email">Email:</label></td>
+                            <td>
+                                <input type="email" id="email" placeholder="abc@gmail.com" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="passwd">Password:</label></td>
+                            <td><input type="password" id="passwd" /></td>
+                        </tr>
+                        <tr>
+                            <td><input type="button" value="Register" /></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
