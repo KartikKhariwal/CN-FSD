@@ -1,0 +1,32 @@
+/* static is default */
+
+
+/* relative positioning wrt its original postition
+space is reserved */
+div {
+    position: relative;
+    left: 20px;
+}
+
+
+/* absolute positioning wrt its original postition in parent
+no space is reserved for the element */
+div {
+    position: absolute;
+    left: 20px;
+}
+
+/* fixed positioning wrt viewport */
+div {
+    position: fixed;
+    left: 20px;
+    top:20px;
+}
+
+/* sticky positioning is combination of relative and fixed */
+div {
+    position: sticky;
+    left: 20px;
+    top:20px;
+    box-sizing: border-box;
+}
