@@ -40,6 +40,21 @@ body {
     text-align: center;
 }
 
+.section-header {
+    width: auto;
+    padding: 20px 10px 10px;
+    margin: 10px auto;
+    font-weight: 400;
+}
+
+.section-header span {
+    font-size: 40px;
+    color: #2857a4;
+    display: inline-block;
+    padding-top: 10px;
+    margin-right: 0.5rem;
+}
+
 /*---------------------------*/
 
 /*--------- Header ----------*/
@@ -103,6 +118,22 @@ body {
 
 /********* about ************/
 
+section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 0 5vh 0;
+}
+
+section:nth-child(2n) {
+    background-color: rgb(179, 179, 179);
+}
+
+section:nth-child(2n+1) {
+    background-color: white;
+}
+
 #about {
     height: auto;
     width: 100%;
@@ -130,4 +161,103 @@ body {
     margin: auto;
     font-size: 2rem;
     color: grey;
+}
+
+#skills-display {
+    width: 70vw;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skill-progress {
+    width: 10rem;
+    height: 2.5rem;
+    margin: 5px 10px;
+    border-radius: 1.5rem;
+    background-color: lightgrey;
+    overflow: hidden;
+}
+
+.progress70 {
+    width: 70%;
+    height: inherit;
+}
+
+.bluebg {
+    background-color: skyblue;
+}
+
+.redbg {
+    background-color: rgb(219, 57, 57);
+}
+
+.orangebg {
+    background-color: rgb(238, 177, 63);
+}
+
+.greenbg {
+    background-color: rgb(79, 192, 79);
+}
+
+.skill-name span {
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 5px;
+}
+
+
+#portfolio-display {
+    width: 70vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0 50px;
+    margin-bottom: 20px;
+    justify-content: space-around;    
+}
+
+.portfolio-proj {
+    width: 300px;
+    height: auto;
+}
+
+.portfolio-proj>div {
+    width:90%;
+    height:90%;
+}
+
+.portfolio-img1 {
+    background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000025_1550237330_codezen_2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.portfolio-img2 {
+    background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000024_1550237299_codezen.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.portfolio-proj:hover .init-hidden {
+    background-color: black;
+    border-radius: 1.2rem;
+    opacity: 0.6;
+    visibility: visible;
+}
+
+.init-hidden {
+    visibility: hidden;
+}
+
+.port-para {
+    padding: 10px;
+    ;
+}
+
+.port-para span {
+    color: white;
+    font-size: 1rem;
 }
