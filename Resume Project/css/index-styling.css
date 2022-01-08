@@ -1,0 +1,128 @@
+/*--------- tag level ----------*/
+
+body {
+    margin: 0px;
+}
+
+/*---------------------------*/
+
+
+/*--------- class level --------*/
+
+.horizontal-list {
+    list-style: none;
+}
+
+.horizontal-list li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    display: inline-block;
+}
+
+.horizontal-list li a:hover {
+    text-decoration: underline;
+    color: rgba(255, 255, 255, 0.597);
+    transition: color 0.5s;
+}
+
+
+.horizontal-list li {
+    display: inline-block;
+    padding: 0px 5px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/*---------------------------*/
+
+/*--------- Header ----------*/
+
+#body-header {
+    height: 65vh;
+    background-image: url("../assets/images/macbook_mouse.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.7;
+    background-attachment: fixed;
+}
+
+/*** Navigation ***/
+
+#header-nav {
+    margin-top: 0px;
+    overflow: hidden;
+}
+
+/*** *** ** *** ***/
+
+#header-name {
+    color: white;
+    font-family: sans-serif;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+/*** Social ***/
+
+#name-social-container {
+    margin-top: 20vh;
+}
+
+#my-name {
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.social-icons li {
+    border-radius: 50%;
+    margin: 0px 0px;
+}
+
+.social-icons li:hover {
+    box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
+}
+
+.social-icons li i {
+    font-size: 2rem;
+}
+
+/***** *  *****/
+
+/*---------------------------*/
+
+/********* about ************/
+
+#about {
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+
+#about-img {
+    height: 15rem;
+    width: 15rem;
+    margin: auto;
+    margin-top: -18vh;
+}
+
+#about-img img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+#about-info {
+    height: auto;
+    width: 70%;
+    margin: auto;
+    font-size: 2rem;
+    color: grey;
+    border-radius: 50%;
+}
