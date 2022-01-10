@@ -355,3 +355,63 @@ section:nth-child(2n+1) {
     padding: 10px;
     box-shadow: none;
 }
+
+/******* TIMeLINE *******/
+
+.timeline {
+    padding: 1%;
+    border: 1px solid black;
+    width: 90vw;
+    height: auto;
+    position: relative;
+}
+
+.timeline-box {
+    position: relative;
+    padding: 1px;
+    width: 47%;
+    font-size: 1.1rem;
+}
+
+.timeline-box:nth-child(2n) {
+    left: 52%;
+}
+
+.timeline-box:nth-child(2n):before {
+    content:'';
+    position: absolute;
+    top:25%;
+    left:-5.1%;
+    border-radius:50%;
+    border:5px solid lightblue;
+}
+
+.timeline-box:nth-child(2n+1) {
+}
+
+.timeline-box:nth-child(2n+1)::before {
+    content:'';
+    position: absolute;
+    top:25%;
+    right:-6.8%;
+    border-radius:50%;
+    border:5px solid lightblue;
+}
+
+.timeline-divider {
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    border: 2px dashed lightblue;
+    width:0;
+    height: 70%;
+    padding:0;
+}
+
+.timeline-traveller {
+    position:sticky;
+    color:black;
+    left:0;
+    top:10%;
+    transform: rotate(90deg);
+}
